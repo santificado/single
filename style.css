@@ -693,6 +693,8 @@ img {
     transition: transform 0.4s ease, box-shadow 0.4s ease; /* Transição suave para efeitos */
     margin: 20px auto; /* Espaçamento ao redor */
     display: block; /* Centraliza as imagens */
+    max-width: 100%;
+    height: auto;
 }
 
 img:hover {
